@@ -58,6 +58,9 @@ function App () {
       setName("");
       setCourse("");
       setAge("");
+    })
+    .catch((error)=>{
+      console.log("Error adding student:", error);
     });
   };
 
